@@ -45,6 +45,6 @@ export const getFakeEventsInfo = async () => {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve(listOfEvents);
-    }, 1000);
+    }, 500);
   });
 };

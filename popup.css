@@ -1,23 +1,26 @@
 /* styles.css */
 body {
-  font-family: "Poppins", sans-serif;
+  width: 500px;
+  height: auto;
   margin: 0;
-  padding: 20px;
+  padding: 10px;
   background-color: #f3f4f6;
+  font-family: Arial, sans-serif;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container {
   max-width: 900px;
   width: 100%;
-  padding: 20px;
+  padding: 15px;
 }
 
 h1 {
   text-align: center;
   color: #222;
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-bottom: 30px;
 }
 
@@ -44,7 +47,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.8em;
+  font-size: 1.5rem;
   color: #222;
   font-weight: bold;
   margin-bottom: 10px;
@@ -60,58 +63,4 @@ li {
 .tickets {
   font-weight: bold;
   color: #0275d8;
-}
-
-/* 🛠 Responsive Design */
-
-/* Adjust for tablets */
-@media (max-width: 768px) {
-  .container {
-    padding: 10px;
-  }
-
-  .event {
-    padding: 20px;
-  }
-
-  h1 {
-    font-size: 1.8rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-
-  p {
-    font-size: 0.95rem;
-  }
-}
-
-/* Adjust for mobile screens */
-@media (max-width: 480px) {
-  body {
-    padding: 5px;
-  }
-
-  .container {
-    width: 95%;
-    padding: 10px;
-  }
-
-  .event {
-    padding: 15px;
-    border-radius: 8px;
-  }
-
-  h1 {
-    font-size: 1.6rem;
-  }
-
-  h2 {
-    font-size: 1.3rem;
-  }
-
-  p {
-    font-size: 0.9rem;
-  }
 }

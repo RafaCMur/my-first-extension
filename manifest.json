@@ -6,11 +6,6 @@
   "author": "Your Name",
   "manifest_version": 3,
   "action": {
-    "default_popup": "popup.html",
-    "default_icon": {
-      "16": "images/get_started16.png",
-      "48": "images/get_started48.png",
-      "128": "images/get_started128.png"
-    }
+    "default_popup": "popup.html"
   }
 }
